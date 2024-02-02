@@ -1,0 +1,24 @@
+ /* Estilos para el botón */
+ .alternar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+.alternar:hover {
+    background-color: #45a049;
+  }
+  /* Estilos para el tema claro */
+.claro {
+    background-color: white;
+    color: black;
+  }
+  /* Estilos para el tema oscuro */
+.oscuro {
+    background-color: black;
+    color: white;
+  }

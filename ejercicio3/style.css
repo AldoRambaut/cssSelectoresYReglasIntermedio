@@ -1,0 +1,21 @@
+.contenedor {
+	border-radius: 10px;
+	border: 1px solid black;
+	width: 300px;
+	height: 20px;
+	position: relative;
+}
+
+.barra {
+	width: 60%;
+	height: 100%;
+	background-color: red;
+	border-radius: 10px;
+}
+.porcentaje {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}

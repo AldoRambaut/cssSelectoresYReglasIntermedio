@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/* Estilos para la caja de comentarios */
+form {
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+#name:focus, #email:focus, #comment:focus{
+    outline: none;
+}
+
+form button {
+    width: max-content;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Estilos para la lista de comentarios */
+ul {
+    list-style:none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+ul li {
+    width: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,11 @@
+li {
+    float: left;
+    list-style-position: inside;
+    padding: 0cm 0.5cm;
+}
+
+li:hover {
+    list-style-type: circle;
+    background-color: black;
+    color: white;
+}
